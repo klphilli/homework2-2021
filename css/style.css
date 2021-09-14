@@ -12,8 +12,7 @@ h1{
 
 h2{
     font-size: 32px;
-    color: #808080;
-    text-shadow: 4px 4px 2px;
+    text-shadow: 4px 4px 2px #808080;
 }
 
 p{
@@ -28,29 +27,43 @@ img{
     width: 550px;    
 }
 
-#id{
-    line-height: 150px;
+div{
+    min-height: 150px;
     padding: 25px;
 }
+
+/* #intro{
+    line-height: 150px;
+    padding: 25px;
+} */
 
 #red{
     background: #ff0000;
     text-align: right;
+    /* line-height: 150px;
+    padding: 25px; */
 }
 
 #blue{
     background: #0000ff;
     text-align: left;
+    /* line-height: 150px;
+    padding: 25px; */
 }
 
 #yellow{
     background: #ffff00;
     text-align: right;
+    /* line-height: 150px;
+    padding: 25px; */
+    color:black;
 }
 
 #green{
     background: #008000;
     text-align: left;
+    /* line-height: 150px;
+    padding: 25px; */
 }
 
 footer{
